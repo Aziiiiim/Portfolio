@@ -1,0 +1,19 @@
+html {
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(7, 42, 64, 0.582),
+    rgba(7, 42, 64, 0.904)
+  );
+
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(7, 42, 64, 0.678),
+    rgba(23, 140, 164, 0.863)
+  );
+
+  --imp-text-color: #18B7BE;
+}
+
+.blue {
+  color: var(--imp-text-color) !important;
+}
