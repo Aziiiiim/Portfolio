@@ -22,6 +22,25 @@ function Home() {
               </h1>
             </Col>
           </Row>
+          <br>
+          </br>
+          <br>
+          </br>
+          <br>
+          </br>
+          <br>
+          </br>
+          <br>
+          </br>
+          <br>
+          </br>
+          <br>
+          </br>
+          <Row>
+            <h1 className="heading-name">
+                This website is still in development and is not yet finished!
+              </h1>
+          </Row>
         </Container>
       </Container>
     </section>
