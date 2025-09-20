@@ -4,6 +4,8 @@ import Techstack from "./Techstack/Techstack";
 import AboutPart from "./AboutPart/AboutPart";
 import Toolstack from "./Toolstack/Toolstack";
 
+import "./About.css";
+
 export default function About() {
   return (
     <Container fluid className="about-section">
@@ -29,16 +31,19 @@ export default function About() {
           >
           </Col>
         </Row>
-        <h1 style={{ fontSize: "5.4em", paddingBottom: "20px" }}>
-          Professional <strong className="blue">Skillset </strong>
-        </h1>
+        <section id="techstack">
+          <h1 style={{ fontSize: "5.4em", paddingBottom: "20px" }}>
+            Professional <strong className="blue">Skillset</strong>
+          </h1>
+          <Techstack />
+        </section>
 
-        <Techstack />
-
-        <h1 style={{ fontSize: "5.4em", paddingBottom: "20px" }}>
-          <strong className="blue">Tools</strong> I use
-        </h1>
-        <Toolstack />
+        <section id="toolstack">
+          <h1 style={{ fontSize: "5.4em", paddingBottom: "20px" }}>
+            <strong className="blue">Tools</strong> I use
+          </h1>
+          <Toolstack />
+        </section>
 
         <Github />
       </Container>
