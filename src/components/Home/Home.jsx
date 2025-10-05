@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Type from "./Type";
 
-import "./Home.css"
+import "./Home.css";
+
 
 function Home() {
   return (
@@ -20,26 +22,12 @@ function Home() {
                 I'm
                 <strong className="main-name"> Azim BARHOUMI</strong>
               </h1>
+
+              <div style={{ padding: 50, textAlign: "left" }}>
+                <Type />
+              </div>
+
             </Col>
-          </Row>
-          <br>
-          </br>
-          <br>
-          </br>
-          <br>
-          </br>
-          <br>
-          </br>
-          <br>
-          </br>
-          <br>
-          </br>
-          <br>
-          </br>
-          <Row>
-            <h1 className="heading-name">
-                This website is still in development and is not yet finished!
-              </h1>
           </Row>
         </Container>
       </Container>
