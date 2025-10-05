@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../../assets/CV_AzimBarhoumi.pdf";
+import pdf from "/assets/CV_AzimBarhoumi.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import "./Resume.css"
 
