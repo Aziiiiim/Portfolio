@@ -71,12 +71,16 @@ export default function Aboutpart() {
             starting in <span className="blue">April 2026</span> in software
             engineering (backend, data structures/algorithms, or software engineering). If my profile fits your needs, feel free to reach out!
           </p>
+          <br />
+          <br />
+          <p className="about-text">Apart from coding, here are some other activities that I love to do on my free time:
+          </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing video games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Doing sports (Running, football, badminton, etc...)
+              <ImPointRight /> Doing sports (Running, Football, Badminton, Brazilian Jiu Jitsu etc...)
             </li>
             <li className="about-activity">
               <ImPointRight /> Learning things that I'm not familiar with
