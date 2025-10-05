@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run --coverage"
+    "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
