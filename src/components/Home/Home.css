@@ -47,7 +47,7 @@
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-beach-bg2.jpg);
+  background-image: var(--image-gradient), url(/assets/home-beach-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   min-height: 100svh !important;
@@ -112,6 +112,7 @@
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-color: #0E3A4E ;
 }
 
 .home-about-description {
@@ -162,7 +163,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #072A40;
+  background: #ffffff;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -187,4 +188,8 @@
 
 .icon-colour {
   color: #072A40 !important;
+}
+
+.blue {
+  color: var(--imp-text-color) !important;
 }
