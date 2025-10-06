@@ -44,6 +44,16 @@ export default function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="images/RealTimeChat_front.png"
+              title="Real-Time Live Chat"
+              description="A real-time web chat app built with Rust (WebAssembly) and TypeScript. Users can pick an avatar and nickname, join a shared chat room, and see messages instantly updated across all browser windows via WebSockets — no refresh needed."
+              ghLink="https://github.com/Aziiiiim/RealTimeChat"
+              keywords={["Rust", "WebAssembly", "TypeScript", "WebSocket", "Node.js", "Frontend"]}
+            />
+          </Col>
+
         </Row>}
       </Container>
     </Container>
